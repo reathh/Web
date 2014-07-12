@@ -1,0 +1,118 @@
+body {
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	border: 1px solid rgb(216,216,216);
+	padding-bottom: 5px;
+}
+#wrapper #header-wrapper {
+	background: rgb(238,238,238);
+	width: 100%;
+	height: 100px;
+}
+#wrapper header {
+	width: 920px;
+}
+#wrapper img#logo {
+ 	float: left;
+ 	margin-top: 15px;
+ 	margin-left: 15px;
+}
+#wrapper header nav {
+	float: right;
+}
+#wrapper header nav a {
+	color: rgb(129,129,129);
+	padding: 20px;
+	margin-right: 50px;
+	line-height: 100px;
+	text-decoration: none;
+}
+#wrapper header nav a.active {
+	color: rgb(249,150,4);
+}
+#wrapper header nav a:hover {
+	background: rgb(202,209,209);
+	border-radius: 5px;
+	font-weight: bold;
+}
+#wrapper #main-wrapper {
+	width: 920px;
+
+}
+#wrapper main {
+	width: 840px;
+	margin: 0 auto;
+}
+#wrapper main h1 {
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+#wrapper main > div {
+	display: inline-block;
+	width: 47%;
+	color: rgb(88,88,88);
+}
+#wrapper main div#left {
+	padding-right: 45px;
+}
+#wrapper main div p {
+	margin-bottom: 40px;
+}
+#wrapper #footer-wrapper {
+	background: rgb(238,238,238);
+	width: 100%;
+	height: 80px;
+}
+#wrapper #header-wrapper {
+	border-bottom: 1px solid rgb(216,216,216);
+}
+#wrapper #footer-wrapper {
+	border-top: 1px solid rgb(216,216,216);
+}
+#wrapper footer {
+	width: 920px;
+}
+#wrapper footer span {
+	color: rgb(88,88,88);
+	font-size: 0.9em;
+	line-height: 80px;
+	margin-left: 40px;
+}
+#wrapper footer a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(icons.png);
+	float: right;
+	margin-top: 25px;
+	margin-right: 17px;
+}
+/* SOCIAL ICONS */
+#wrapper footer a#facebook {
+	background-position: 0px 0px; 
+}
+#wrapper footer a#facebook:hover {
+	background-position: -40px 0px; 
+}
+#wrapper footer a#gplus {
+	background-position: 0px -40px; 
+}
+#wrapper footer a#gplus:hover {
+	background-position: -40px -40px; 
+}
+#wrapper footer a#twitter {
+	background-position: 0px -81px; 
+}
+#wrapper footer a#twitter:hover {
+	background-position: -40px -80px; 
+}
+#wrapper footer a#tumblr {
+	background-position: 0px -120px; 
+}
+#wrapper footer a#tumblr:hover {
+	background-position: -40px -120px;
+}
+/* SOCIAL ICONS */

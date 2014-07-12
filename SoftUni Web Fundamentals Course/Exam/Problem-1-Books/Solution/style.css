@@ -1,0 +1,56 @@
+body {
+	font-family: Tahoma, Helvetica, sans-serif
+}
+#book {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	font-size: 11px;
+	width: 145px;
+	height: 265px;
+}
+#bookimage {
+	width: 100%;
+	border: 1px solid rgb(207,211,216);
+}
+#bookimage:hover {
+	border: 1px solid rgb(237,240,244);
+}
+#title {
+	text-transform: uppercase;
+}
+#title:hover {
+	color: rgb(159,159,159);
+}
+#author {
+	color: rgb(105,105,105);
+}
+#price {
+	font-weight: bold;
+	color: rgb(162,5,13);
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  line-height: normal;
+}
+#cart {
+	text-transform: uppercase;
+	font-size: 10px;
+	background: url('shopping-cart-inactive.png');
+	padding-left: 30px;
+	position: absolute;
+	bottom: 0;
+	border: 1px solid rgb(230,231,233);
+	border-radius: 5px;
+	padding-right: 15px;
+	padding-bottom: 2px;
+}
+#cart:hover {
+	background: url('shopping-cart-active.png');
+}
+#book > div, #book > img {
+	margin-bottom: 10px;
+}

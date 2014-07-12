@@ -1,0 +1,117 @@
+@font-face {
+    font-family: glyphicons;
+    src: url(glyphicons-halflings-regular.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('blurred-green-background.jpg');
+	background-size: cover;
+}
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+#wrapper form {
+	width: 350px;
+	height: 265px;
+}
+#wrapper #searchbox {
+	width: 350px;
+	height: 34px;
+}
+#wrapper form h2 {
+	width: 340px;
+	background-color: rgb(147,213,92);
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+	color: #fff;
+	margin: 0;
+}
+#wrapper form #inputs input, button {
+	display:block;
+	width: 70%;
+	margin: 0 auto;
+	height: 30px;
+}
+#wrapper form #inputs input {
+		margin-bottom: 20px;
+		border: 1px solid rgb(204,204,204);
+		border-radius: 0px 5px 5px 0px;
+		padding-left: 15px;
+}
+#wrapper form #inputs input:focus, #wrapper #searchbox input[type="text"]:focus  {
+			outline: 1px solid rgb(102,175,233);
+}
+#wrapper form #inputs button {
+	width: 80%
+	color: #fff;
+	font-size: 14px;
+	height: 40px;
+	background-color: rgb(92,184,92);
+	border: 1px solid rgb(76,174,76);
+	border-bottom: 4px solid rgb(34,158,34);
+	border-radius: 5px 5px 6px 6px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+#wrapper form #inputs {
+	width: 100%;
+	background-color: rgba(242,248,240, 0.7);
+	padding: 0px 5px 20px 5px;
+}
+#wrapper form #inputs #emailicon {
+	display: inline-block;
+	font-family: glyphicons, sans-serif;
+	position: relative;
+	top: 34px;
+	left: 18px;
+	width: 20px;
+	height: 20px;
+	padding: 6px;
+	background-color: rgb(238,238,238);
+	border: 1px solid rgb(204,204,204);
+	border-radius: 10px 0px 0px 10px;
+}
+#wrapper form #inputs #passwordicon {
+	display: inline-block;
+	font-family: glyphicons, sans-serif;
+	position: relative;
+	top: 34px;
+	left: 18px;
+	width: 20px;
+	height: 20px;
+	padding: 6px;
+	background-color: rgb(238,238,238);
+	border: 1px solid rgb(204,204,204);
+	border-radius: 10px 0px 0px 10px;
+}
+#wrapper #searchbox {
+	margin-top: 100px;
+}
+#wrapper #searchbox input[type="text"] {
+	display: inline-block;
+	width: 66%;
+	height: 30px;
+	font-size: 15px;
+	border: 1px solid rgb(204,204,204);
+	border-radius: 5px 0px 0px 5px;
+	padding-left: 10px;
+}
+#wrapper #searchbox button {
+	color: white;
+	display: inline-block;
+	font-family: glyphicons, sans-serif;
+	width: 30%;
+	height: 35px;
+	padding-right: 15px;
+	font-size: 15px;
+	background-color: rgb(92,184,92);
+	border: 1px solid rgb(76,174,76);
+	border-radius: 0px 5px 5px 0px;
+}
+#wrapper #searchbox button:hover {
+	background-color: rgb(68,157,67);
+	border: 1px solid rgb(57,132,57);
+}

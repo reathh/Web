@@ -1,0 +1,19 @@
+/* Add here your responsive CSS */
+@media all and (max-width: 640px) {
+.mainHeader img {
+width: 100%;
+}
+.mainHeader nav ul li{
+	display: block;
+	float: none;
+	width: 100%;
+}
+.content {
+	width: 100%;
+}
+.mainContent aside {
+	width: 100%;
+	float: none;
+	display: block;
+	margin-top: 10px;
+}
