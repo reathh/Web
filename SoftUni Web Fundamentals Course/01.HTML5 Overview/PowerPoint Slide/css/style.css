@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    width: 99%;
+    height: 100%;
+}
+
+h1{
+    color: #f2bf64;
+    font-family: Calibri;
+    font-size: 38pt;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: Calibri;
+    font-size: 34pt;
+    padding-left: 35px;
+}
+
+li{
+    color: #f6af55;
+}
+
+span{
+    color: white;
+}
+
+p1{
+    color: #f9c768;
+    font-weight: bold;
+}
+
+span1{
+    font-size: 21pt;
+    font-family: Consolas;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    margin-left: 10px;
+}
+
+div{
+    width: 855px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid white;
+    margin-left: 60px;
+}

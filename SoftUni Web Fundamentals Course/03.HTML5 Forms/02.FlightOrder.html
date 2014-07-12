@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="css/flight-order.css"/>
+</head>
+<body>
+    <form>
+        <h1>Flight order</h1>
+        <fieldset>
+            <label class="city" for="city-from">From</label>
+            <select class="top" id="city-from">
+                <option value="">enter a city</option>
+                <option value="">Kaspichan</option>
+                <option value="">Poibrene</option>
+                <option value="">Dolno uino</option>
+            </select>
+            
+
+            <label for="dep-date">Departure Date</label>
+            <input id="dep-date" type="date" />
+            
+            <label for="ret-date">Return Date</label>
+            <input id="ret-date" type="date"  />
+            <div class="years">
+                <div>
+                    <label for="big">12+</label>
+                    <input id="big" min="13" type="number" placeholder="0" />
+                </div>
+                <div>
+                    <label for="medium">2-12</label>
+                    <input id="medium" min="2" max="12" type="number" placeholder="0" />
+                </div>
+                <div>
+                    <label for="small">0-2</label>
+                    <input id="small" min="0" max="2" type="number" placeholder="0" />
+                </div>
+            </div>
+                      
+        </fieldset>
+        <fieldset>
+            <label class="city" for="city-to">To</label>
+            <select id="city-to">
+                <option value="">enter a city</option>
+                <option value="kaspichan">Kaspichan</option>
+                <option value="poibrene">Poibrene</option>
+                <option value="uino">Dolno uino</option>
+            </select>
+            <input class="check" type="checkbox" id="directs" />
+            <label for="directs">Prefer directs</label>
+            <label for="dep-start" class="time-interval">Time Interval</label>
+            <input class="time" id="dep-start" type="time" />
+            <input class="time" type="time"  />
+            <label for="ret-start" class="time-interval"    >Time Interval</label>
+            <input class="time" id="ret-start" type="time" />
+            <input class="time" type="time" />
+            <label class="city" for="city-to">Choose class</label>
+            <select id="class">
+                <option value="economy">Economy</option>
+                <option value="cheap">Cheap</option>
+                <option value="toilet">In the toilet</option>
+                <option value="wing">Half flight on the wing</option>
+            </select>
+            <button type="submit">Search</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

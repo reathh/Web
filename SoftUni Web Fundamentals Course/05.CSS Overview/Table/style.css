@@ -1,0 +1,61 @@
+        tr:nth-child(even){
+            background-color: #C8C8C8;
+        }
+         tr:nth-child(odd){
+            background-color: white;
+        }
+        table tr th {
+            background-color: yellow;
+        }
+        table tr td table tr td img{
+            margin-top: 5px;
+        }
+        table tr td table tr td div{
+            float: right;
+
+        }
+        table tr td div{
+            text-align: center;
+        }
+        .countryTwo{
+            float: left;
+        }
+        .team1{
+            float: right;
+        }
+        .options{
+            height: 25px;
+            color: red;
+            background-color: #C8C8C8;
+        }
+        .options2{
+            height: 25px;
+            color: green;
+        }
+        .team2{
+            float: left;
+        }
+        .wrapper{
+            margin: 10px auto;
+            background-color: green;
+            height: 310px;
+            width: 790px;
+        }
+         .top-left-td {
+             border-top-left-radius: 6px;
+
+         }
+        .bigtable{
+           font-size: 12px;
+           position: relative;
+           top: 8px;
+           left: 8px;
+           border-radius: 15px 15px 15px 15px;
+           overflow: hidden;
+        }
+        .bigtable th{
+            font-size: 18px;
+        }
+        .Snimchici{
+            width: 40px;
+        }

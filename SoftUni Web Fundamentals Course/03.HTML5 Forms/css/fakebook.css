@@ -1,0 +1,124 @@
+﻿body, h1, h2, h3, form {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Tahoma';
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+form {
+    width: 55%;
+    padding:.7% 1%;
+    background-color: #3b5997;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 600%;
+}
+
+    h1 span {
+        font-size: 15%;
+        margin-left: 1%;
+    }
+
+h2 {
+    font-size: 185%;
+    margin-top: 1.6%;
+}
+
+h3 {
+    font-size: 91%;
+    margin: 1% 0 3%;
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.non-required {
+    width: 35%;
+    float: left;
+    padding-bottom: 6.5%;
+}
+
+.required {
+    width: 53%;
+    float: right;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 75%;
+}
+
+input {
+    width: 47%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+input, select {
+    font-size: 65%;
+    padding: 1% 0;
+}
+
+.required input, .required select{
+	width: 31.5%;
+    border-radius: 5px;
+}
+
+.birthday {
+	width: 81%;
+}
+
+#female, #male, #other {
+	width: 5%;
+}
+
+.gender {
+	font-size: 65%;
+}
+
+.short {
+	width: 15%!important;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 98%;
+}
+
+label {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    border: none;
+}
+
+.reset {
+    width: 38.6%;
+    color: #3b5997;
+    font-size: 90%;
+    border-radius: 10px;
+    padding: 1.4%;
+    border: 1px solid #999;
+}
+
+.submit {
+    width: 57%;
+    float: right;
+    color: #3b5997;
+    font-size: 125%; 
+    border-radius: 10px;
+    border: 1px solid #999;
+}

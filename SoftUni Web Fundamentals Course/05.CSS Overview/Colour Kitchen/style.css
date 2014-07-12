@@ -1,0 +1,193 @@
+
+		body{
+            background-image: url("colorful_dots_on_black.jpg")
+        }
+        body aside nav ul li{
+            list-style-image: url("yes.png");
+			list-style-position: inside;
+        }
+        body aside {
+            background: rgba(255,255,255, .9);
+            width: 15%;
+            border-radius: 15px;
+            float: left;
+            margin: 5%;
+            position: fixed;
+
+        }
+        body aside nav header{
+            text-decoration: underline;
+            font-size: 20px;
+            padding-left: 15px;
+            background: none;
+            color: black;
+        }
+        body section article {
+            background: rgba(255,255,255, .9);
+            width: 60%;
+            float: right;
+            margin-right: 15%;
+            border-radius: 2%;
+            margin-top: 2%;
+
+        }
+        body header#webColors{
+            background: none;
+            background-color: red;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            color: white;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        #webSafeColors{
+            background: none;
+            background-color: orange;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+       body header#RGB{
+            background: none;
+            background-color: yellow;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+			color: black;
+        }
+        body header#RGBA{
+            background: none;
+            background-color: green;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        body header#HSLHSV{
+            background: none;
+            background-color: blue;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        body header#lorem{
+            background: none;
+            background-color: purple;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        article span{
+            margin: 2%;
+        }
+        body section div{
+            margin: 2%;
+        }
+        article div::first-letter{
+            font-size: 50px;
+        }
+        article span:lang(la) {
+            color: blue;
+            font-style: italic;
+        }
+        article div::first-line{
+            font-style: italic;
+        }
+        article footer{
+            margin-left: 2%;
+            margin-bottom: 4%;
+        }
+		article footer a {
+		color: gray;
+		}
+        header{
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            color: yellow;
+            border-radius: 10px;
+             background:
+            -moz-linear-gradient(left, rgba(255,0,0,1) 0%,
+              rgba(255,0,0,1) 33%, 
+             rgba(0,128,0,1) 33%, 
+             rgba(0,128,0,1) 69%, 
+             rgba(0,0,255,1) 69%,
+              rgba(0,0,255,1) 100%)
+        }
+			nav ul li:nth-child(1):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: red;
+			border-radius: 5px;
+			list-style-position: inside;
+			}
+
+			nav ul li:nth-child(2):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: orange;
+			border-radius: 5px;
+			display: list-item;
+			list-style-position: inside;
+			}
+
+			nav ul li:nth-child(3):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: yellow;
+			border-radius: 5px;
+			display: list-item;
+			list-style-position: inside;
+			}
+
+			nav ul li:nth-child(4):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: green;
+			border-radius: 5px;
+			display: list-item;
+			list-style-position: inside;
+			}
+
+			nav ul li:nth-child(5):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: blue;
+			border-radius: 5px;
+			display: list-item;
+			list-style-position: inside;
+			}
+
+			nav ul li:nth-child(6):hover {
+			margin-left: -27px;
+			padding-left: 5px;
+			width: 100%;
+			background: purple;
+			border-radius: 5px;
+			display: list-item;
+			list-style-position: inside;
+			}

@@ -1,0 +1,19 @@
+td, th {
+		border: 1px solid black;
+		font-size: 25px;
+		width: 90px;
+		height: 80px;
+		padding: 5px;
+	}
+	table tr td:first-child {
+		text-align: left;
+		vertical-align: top;
+	}
+	table tr td:last-child {
+		text-align: right;
+		vertical-align: bottom;
+	}
+	table tr.moreThan2 td:nth-child(2) {
+		text-align: left;
+		vertical-align: center;
+	}

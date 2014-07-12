@@ -1,0 +1,34 @@
+table, th, td {
+    border: 1px solid black;
+    height: 25%;
+}
+	th, td {
+	padding: 5px;
+	}
+table {
+    width: 500px;
+    height: 625px;
+    table-layout: fixed;
+}
+	table button {
+		color: blue;
+		height: 100%;
+		width: 99%;
+		font-size: 25px;
+		margin: 1px;
+        cursor: pointer;
+	}
+    table button:hover {
+        font-weight: bolder;
+    }
+	table button#head {	
+		height: 125px;
+		font-size: 35px;
+	}
+	table button.nested {
+		height: 52%;	
+		font-size: 15px;
+	}
+	table button#beer {
+		text-align: right;
+	}

@@ -1,0 +1,15 @@
+			textarea {
+				font-size: 30px;
+			}
+			button {
+				font-size: 15px;
+				width: 60px;
+				height: 60px;
+			}
+			button:hover {
+				font-weight: bolder;
+				background: rgb(220,220,220);
+			}
+			button:active {
+				background-color: rgb(85,85,85);
+			}
