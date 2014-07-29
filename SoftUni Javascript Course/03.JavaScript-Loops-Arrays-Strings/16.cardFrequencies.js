@@ -8,7 +8,6 @@ function findCardFrequency(inputString) {
                 uniqueElements.push(arr[i]);
             }
         }
-
         return uniqueElements;
     }
 
